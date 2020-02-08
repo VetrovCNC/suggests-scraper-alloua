@@ -1,4 +1,4 @@
-# suggests-scraper-alloua
+# Suggests Scraper from allo.ua
 Сборщик подсказок из поисковой строки интернет-магазина allo.ua (http://allo.ua/)
 
 ### Тестовое задание
