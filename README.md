@@ -27,13 +27,14 @@
 
 Создаем новое виртуальное окружение и активируем его
 
-1. `$ python3 -m venv .venv`
+1. `$ python3 -m venv .venv --without-pip`
 2. `$ . ./.venv/bin/activate`
+3. `$ curl https://bootstrap.pypa.io/get-pip.py | python3`
 
 Устанавливаем зависимости:
 
-3. `$ pip install -r requirements.txt`
+4. `$ pip install -r requirements.txt`
 
 Запускаем скрипт для проверки работы:
 
-4. `$ python scraper.py`
+5. `$ python scraper.py`
